@@ -1,0 +1,29 @@
+header .navbar-nav {
+    .nav-item {
+        padding-block: 1rem;
+        padding-inline:  1.5rem;
+
+        .nav-link {
+            color: #14171F;
+            font-size: $h7-font-size;
+
+            &:hover {
+                color: $accent;
+                font-weight: 600;
+            }
+        }
+    }
+}
+
+
+@media (min-width: 1200px) {
+    header .nav-item {
+        padding: 0 1rem;
+    }
+}
+
+@media (min-width: 1400px) {
+    header .nav-item {
+        padding: 0 2rem;
+    }
+}

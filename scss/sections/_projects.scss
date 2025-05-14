@@ -1,0 +1,70 @@
+.custom-tab-nav {
+  border-bottom: none !important;
+
+  .nav-link {
+    border: none;
+    border-left: 4px solid transparent;
+    color: $light-grey; // Bootstrap's light gray
+
+    &.active,
+    &:hover {
+      color: $primary;
+      border-left-color: $primary;
+      background-color: transparent;
+    }
+
+    &:focus {
+      box-shadow: none;
+    }
+  }
+
+  .nav-item {
+    margin-bottom: 0.5rem;
+  }
+}
+
+.swiper {
+  width: 100%;
+  height: auto;
+  position: relative;
+  padding-bottom: 3.4rem;
+
+}
+
+.swiper-slide {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: none;
+  padding-bottom: 1.2rem;
+}
+
+.card {
+  width: 100%;
+  max-width: 300px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border: none;
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+  width: 40% !important;
+
+  top: 100%;
+  transform: translateY(-71%);
+}
+
+.swiper-pagination {
+  bottom: 0 !important;
+  text-align: center;
+}
+
+.swiper-button-next:after,
+.swiper-button-prev:after {
+  display: none;
+}
+
+.swiper-pagination-fraction {
+  font-size: 5rem;
+  font-weight: 700;
+}

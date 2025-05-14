@@ -1,0 +1,23 @@
+{
+  "name": "the-box",
+  "version": "1.0.0",
+  "description": "this is webpage for the project name the box",
+  "homepage": "https://github.com/khus759/The-Box#readme",
+  "bugs": {
+    "url": "https://github.com/khus759/The-Box/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/khus759/The-Box.git"
+  },
+  "license": "ISC",
+  "author": "khushi",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "bootstrap": "^5.3.6"
+  }
+}

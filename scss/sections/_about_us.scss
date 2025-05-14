@@ -1,0 +1,24 @@
+
+
+.ms-175 {
+  margin-left: -174px;
+}
+
+.w-500 {
+  width: 500px;
+}
+@media(max-width: 991px) {
+  .about-us .ms-175 {
+    margin-left: 0px;
+  }
+
+  .about-us .card {
+    margin-top: -49px;
+    width: 90%;
+  }
+
+  // .about-us .card {
+  //   width: 90%;
+  // }
+}
+
