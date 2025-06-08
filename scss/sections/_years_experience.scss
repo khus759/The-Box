@@ -1,68 +1,49 @@
-
-.stat-label {
+.stat-card {
   border-left: 7px solid #f97316;
-  padding-left: 1rem;
+  margin-left: 1rem;
 }
 
-.stat-icon {
+.experience .card-image-one {
   top: 0;
   right: 0;
+  transform: translate(28%, -28%);
+}
+
+.card-image-two {
+  top: 0;
+  left: 0;
   transform: translate(-50%, -50%);
 }
 
-.icon-two {
-  left: 0 !important;
-  right: auto;
-  transform: translate(30%, -30%);
-}
-
-.icon-three {
+.experience .card-image-three {
+  top: 0;
   right: 0;
-  transform: translate(70%, -20%);
+  transform: translate(21%, -21%);
 }
 
-.icon-four {
+.experience .card-image-four {
   bottom: 0;
   right: 0;
-  top: 6%;
-  transform: translate(60%, 80%);
+  transform: translate(50%, 50%);
 }
 
-/* Responsive Staggering of Cards in lg+ */
 @media (min-width: 992px) {
-  .stat-one {
-    transform: translateY(0px);
-    z-index: 4;
-  }
-
-  .stat-two {
-    transform: translate(30px, -30px);
-    z-index: 3;
-  }
-
-  .stat-three {
-    transform: translate(60px, -60px);
-    z-index: 2;
-  }
-
-  .stat-four {
-    transform: translate(90px, -90px);
-    z-index: 1;
-  }
+    .ms-lg-300 {
+        margin-left: 300px !important;
+        margin-right: -25px;
+    }
 }
 
-/* Mobile Tweaks */
 @media (max-width: 991px) {
-  .stat-icon {
-    position: relative !important;
-    top: 0 !important;
-    left: 50% !important;
-    transform: translateX(-50%) !important;
-    margin-bottom: 15px;
-  }
-
-  .stat-label {
-    border-left: none;
-    padding-left: 0;
+    .experience .card figure {
+        position: relative !important;
+        top: 0 !important;
+        left: 50% !important;
+        transform: translateX(-50%) !important;
+        margin-bottom: 15px;
+    }
+    .experience .card {
+    max-width: 100%;
+    margin-top: 30px;
   }
 }
